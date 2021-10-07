@@ -51,7 +51,7 @@ app.get("/user", auth, async (req, res) => {
         score: 1,
       }
     );
-
+      console.log(users)
     message = {
       users,
     };
